@@ -8,10 +8,12 @@ a {
   color: #000;
 }
 
-header {
+.p {
+  color: #eb8a53;
+}
+
+.margin {
   margin: 10em 4em 8em;
-  /*background-image: url("../images/bg.jpg");*/
-  /*background-size: cover;*/
 }
 
 @media only screen and (min-width: 20em) {
@@ -20,7 +22,7 @@ header {
 
   }
 
-  h1 {
+  .font {
     font-size: 2.3686rem;
     line-height: 3.25rem;
     text-align: center;
@@ -35,7 +37,7 @@ header {
 @media only screen and (min-width: 38em) {
 
 
-  h1 {
+  .font {
     font-size: 5.6102rem;
     line-height: 7.475rem;
     text-align: left;
@@ -51,7 +53,7 @@ header {
 
 @media only screen and (min-width: 60em) {
 
-  header {
+  .margin {
     margin: 10em 0 8em;
   }
 
