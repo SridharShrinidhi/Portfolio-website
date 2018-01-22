@@ -1,6 +1,6 @@
 
 html {
-  font-family: Nunito, sans-serif;
+  font-family: "Work Sans", sans-serif;
 }
 
 a {
@@ -9,15 +9,56 @@ a {
 }
 
 header {
-  height: 100vh;
+  margin: 10em 4em 8em;
+  /*background-image: url("../images/bg.jpg");*/
+  /*background-size: cover;*/
+}
+
+@media only screen and (min-width: 20em) {
+
+  header {
+
+  }
+
+  h1 {
+    font-size: 2.3686rem;
+    line-height: 3.25rem;
+    text-align: center;
+  }
+
+  .nav {
+    text-align: center;
+  }
+
 }
 
 @media only screen and (min-width: 38em) {
 
+
+  h1 {
+    font-size: 5.6102rem;
+    line-height: 7.475rem;
+    text-align: left;
+  }
+
+  .nav {
+    float: left;
+    text-align: left;
+    margin-top: 3rem;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
   header {
-    margin-left: 10rem;
-    margin-top: 10rem;
-    height: 100vh;
+    margin: 10em 0 8em;
+  }
+
+  .nav {
+    float: right;
+    text-align: left;
+    margin-top: 6rem;
   }
 
 }
