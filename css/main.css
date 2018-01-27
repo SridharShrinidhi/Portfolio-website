@@ -16,6 +16,11 @@ a {
   margin: 10em 4em 8em;
 }
 
+.s img {
+  width: 200px;
+  min-height: 300px;
+}
+
 @media only screen and (min-width: 20em) {
 
   header {
